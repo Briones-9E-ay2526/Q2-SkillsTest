@@ -1,0 +1,73 @@
+body {
+  background-image: url("OBMC.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+  padding: 15px;
+}
+
+.box{
+  width: 70%;
+  margin: 100px auto;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.2);
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: left;
+  flex-direction: column;
+  min-height: 800px;
+}
+
+h1, h3 {
+  color:steelblue;
+  margin-bottom: 20px;
+}
+
+p {
+  color: white;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+ul{
+  color: white;
+  margin: 0;
+}
+
+.checkbox{
+  display: flex; 
+  align-items: center
+}
+
+.checkbox-group{
+  display: flex; 
+  gap: 20px;
+}
+
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+textarea {
+  width: 80%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+input[type="submit"] {
+  display: block;
+  margin: 0 auto;
+  width: 200px
+}
+
+input[type="text"], input[type="email"], input[type="date"], select {
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+}
